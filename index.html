@@ -3,31 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Plantilla</title>
+	<title>Login Adminfact</title>
 	<link rel="stylesheet" type="" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/estilos.css">
-      <img src="img/logo.png">
-      <br>
-      <br>
 </head>
 <body>
+  <div class="logo">
+    <img src="img/cantv_aba.png">
+  </div>
+    
+  <div class="logo1">
    <iframe src="http://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&timezone=America%2FCaracas" width="80%" height="148" frameborder="0" seamless></iframe>
+
+  </div>
 	<div class="container">
 
 <br>
 <br>
-<h5>Ingresa Tus Datos 
-</h5> 
+<h2>Ingresa Tus Datos 
+</h2> 
 <form name="login"> 
-     <table width="200" border="0"> 
+     <table width="200 border="0"> 
        <tr> 
-         <th scope="row"><h5>Usuario</h5></th> 
+         <th scope="row"><h3>Usuario</h3></th> 
          <td><span class="cnt"> 
            <input name="usuario" type="text" class="Input" value="" size="20" /> 
          </span></td> 
        </tr> 
        <tr> 
-         <th height="33" scope="row"><h5>Clave</h5></th> 
+         <th height="33" scope="row"><h3>Clave</h3></th> 
          <td><span class="cnt"> 
            <input name="password" type="password" class="Input" value="" size="20" /> 
          </span></td> 
@@ -41,38 +45,37 @@
      </table> 
 </form> 
 <script language="JavaScript"> 
-function Login(){ 
+
+  function Login(){
 var done=0; 
 var usuario=document.login.usuario.value; 
-var password=document.login.password.value; 
-if (usuario=="SOPHIA" && password=="48790316") { 
-window.location="index/entrar.html"; 
-} 
-if (usuario=="EDWER2019" && password=="Bicentenario2019") { 
-window.location="index/entrar.html"; 
-} 
-if (usuario=="ELI10" && password=="Bicentenario2019") { 
-window.location="index/entrar.html"; 
-} 
-  else{ alert("Por favor ingrese nuevamente sus Datos."); }
-endif 
-if (usuario=="" && password=="") { 
-window.location="errorpopup.html"; 
-} 
-} 
-        </script> 
-</center> 
+var password=document.login.password.value;
+  
+if (usuario=="lgarci19" && password=="Cantv") { window.location="file:http://localhost/capi/"; } 
+  else if (usuario=="mvega1" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; } 
+  else if (usuario=="omarin" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; }
+  else if (usuario=="apere7" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; } 
+  else if (usuario=="crinco" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; }
+  else if (usuario=="jberna" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; }
+  else if (usuario=="atoro03" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; }
+  else if (usuario=="jmarin10" && password=="Cantv2022") { window.location="file:Index_Gcc.html"; }
+  else { alert("Por favor ingrese nuevamente sus Datos.");}  
+
+  endif 
+
+if (usuario=="" && password=="")
+ { 
+window.location="errorpopup.html"; }
+ 
+ }
+ 
+</script> 
 <script language="Javascript"> 
-<!-- Begin 
+begin 
 document.oncontextmenu = function(){return false} 
-// End --> 
+// End  
 </script>
-</body>
-</html>
 
-
-</div>
-</div>
 <script src="js/jquery-3.4.1.min.js" ></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

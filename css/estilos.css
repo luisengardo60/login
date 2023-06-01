@@ -1,11 +1,13 @@
-.logo.png {
-  float: left;
-  width: 1000px;
-  height: 100px;
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 100vmin;
+  background: url(../img/bloques.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
-.row {
-  
-  
+img {
+  width: 5%;
+  height: 5%;
 }
 
